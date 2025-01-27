@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoctorCell Shop</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>DoctorCell Shop</h1>
+        <div class="header-buttons">
+            <button id="search-btn">🔍 Buscar</button>
+            <button id="cart-btn">🛒 Carrito</button>
+        </div>
+    </header>
+    <main>
+        <h2>Accesorios</h2>
+        <select id="cat-food-select">
+            <option value="">Seleccione un articulo</option>
+        </select>
+        <div id="selected-products"></div>
+    </main>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+    "cat_food": [
+      {"id": 1, "name": "Premium Kitten Food", "price": 1500},
+      {"id": 2, "name": "Adult Cat Dry Food", "price": 2000},
+      {"id": 3, "name": "Senior Cat Wet Food", "price": 1800},
+      {"id": 4, "name": "Grain-Free Cat Food", "price": 2500},
+      {"id": 5, "name": "Urinary Health Cat Food", "price": 2200}
+    ]
+  }
